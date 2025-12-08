@@ -11,7 +11,7 @@ TL;DR：该项目演示了从 Excel 原始数据到可复现分析流程（Jupyt
 
 项目概览（Why / What）
 - 目标：清洗订单数据并基于 RFM（Recency, Frequency, Monetary）方法对客户进行分层，产出可执行营销策略建议。
-- 交付物：Jupyter Notebook（核心分析流程）、关键图表、README.md、requirements.txt、DATA_LICENSE.md
+- 交付物：Jupyter Notebook（核心分析流程）、关键图表、README.md、DATA_LICENSE.md
 
 项目亮点
 - 数据规模：N = 9,800 条订单
@@ -52,10 +52,7 @@ TL;DR：该项目演示了从 Excel 原始数据到可复现分析流程（Jupyt
 
 目录建议（仓库结构示例）
 - notebooks/  -> Jupyter Notebook（主分析）
-- data/       -> 原始/处理后数据（默认忽略于 git）
 - outputs/    -> 生成的图表、报告（可纳入 release）
-- src/        -> 若有脚本化代码，可放置这里
-- docs/       -> 额外文档
 
 许可与数据合规
 - 代码：建议采用 GPL-2 许可证（LICENSE 文件）
